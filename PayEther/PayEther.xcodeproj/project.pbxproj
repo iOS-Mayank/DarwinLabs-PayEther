@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7831F3AF1F2BDA2400A42C0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7831F3AE1F2BDA2400A42C0C /* main.m */; };
+		7831F3B21F2BDA2400A42C0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7831F3B11F2BDA2400A42C0C /* AppDelegate.m */; };
+		7831F3B81F2BDA2700A42C0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7831F3B61F2BDA2700A42C0C /* Main.storyboard */; };
+		7831F3BA1F2BDA2700A42C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7831F3B91F2BDA2700A42C0C /* Assets.xcassets */; };
+		7831F3BD1F2BDA2700A42C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7831F3BB1F2BDA2700A42C0C /* LaunchScreen.storyboard */; };
+		7831F3C51F2BDBA600A42C0C /* ether.png in Resources */ = {isa = PBXBuildFile; fileRef = 7831F3C41F2BDBA600A42C0C /* ether.png */; };
+		789935D01F2BE05000B4E635 /* LoadUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 789935CF1F2BE05000B4E635 /* LoadUpdate.m */; };
+		78FB797D1F2CA62F00D9C55F /* wall1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78FB797C1F2CA62F00D9C55F /* wall1.jpg */; };
+		78FB797F1F2CAB6C00D9C55F /* wall.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FB797E1F2CAB6C00D9C55F /* wall.png */; };
+		78FB79811F2CABC400D9C55F /* ether_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FB79801F2CABC400D9C55F /* ether_logo.png */; };
+		78FB79861F2CAC2E00D9C55F /* LogIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB79831F2CAC2E00D9C55F /* LogIn.m */; };
+		78FB79871F2CAC2E00D9C55F /* SignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB79851F2CAC2E00D9C55F /* SignUp.m */; };
+		78FB798A1F2CCC5E00D9C55F /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FB79881F2CCC5D00D9C55F /* password.png */; };
+		78FB798B1F2CCC5E00D9C55F /* username.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FB79891F2CCC5E00D9C55F /* username.png */; };
+		78FB79971F2CE5AB00D9C55F /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB798E1F2CE5AB00D9C55F /* SVIndefiniteAnimatedView.m */; };
+		78FB79981F2CE5AB00D9C55F /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB79901F2CE5AB00D9C55F /* SVProgressAnimatedView.m */; };
+		78FB79991F2CE5AB00D9C55F /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78FB79921F2CE5AB00D9C55F /* SVProgressHUD.bundle */; };
+		78FB799A1F2CE5AB00D9C55F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB79941F2CE5AB00D9C55F /* SVProgressHUD.m */; };
+		78FB799B1F2CE5AB00D9C55F /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB79961F2CE5AB00D9C55F /* SVRadialGradientLayer.m */; };
+		78FB79A21F2CEC2000D9C55F /* CWStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB799E1F2CEC2000D9C55F /* CWStatusBarNotification.m */; };
+		78FB79A31F2CEC2000D9C55F /* notify_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FB799F1F2CEC2000D9C55F /* notify_error.png */; };
+		78FB79A41F2CEC2000D9C55F /* StatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB79A11F2CEC2000D9C55F /* StatusBarNotification.m */; };
+		78FB79A71F2D063D00D9C55F /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB79A61F2D063C00D9C55F /* Home.m */; };
+		78FB79AA1F2D067800D9C55F /* SendEther.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB79A91F2D067800D9C55F /* SendEther.m */; };
+		78FB79AD1F2D069200D9C55F /* ReceiveEther.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB79AC1F2D069200D9C55F /* ReceiveEther.m */; };
+		78FB79B01F2D06A400D9C55F /* TradeEther.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB79AF1F2D06A400D9C55F /* TradeEther.m */; };
+		78FB79B21F2D2F4B00D9C55F /* qrcode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78FB79B11F2D2F4A00D9C55F /* qrcode.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7831F3AA1F2BDA2000A42C0C /* PayEther.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayEther.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7831F3AE1F2BDA2400A42C0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7831F3B01F2BDA2400A42C0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7831F3B11F2BDA2400A42C0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7831F3B71F2BDA2700A42C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7831F3B91F2BDA2700A42C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7831F3BC1F2BDA2700A42C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7831F3BE1F2BDA2700A42C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7831F3C41F2BDBA600A42C0C /* ether.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ether.png; sourceTree = "<group>"; };
+		789935CE1F2BE05000B4E635 /* LoadUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadUpdate.h; sourceTree = "<group>"; };
+		789935CF1F2BE05000B4E635 /* LoadUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadUpdate.m; sourceTree = "<group>"; };
+		78FB797C1F2CA62F00D9C55F /* wall1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall1.jpg; sourceTree = "<group>"; };
+		78FB797E1F2CAB6C00D9C55F /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall.png; sourceTree = "<group>"; };
+		78FB79801F2CABC400D9C55F /* ether_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ether_logo.png; sourceTree = "<group>"; };
+		78FB79821F2CAC2E00D9C55F /* LogIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogIn.h; sourceTree = "<group>"; };
+		78FB79831F2CAC2E00D9C55F /* LogIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogIn.m; sourceTree = "<group>"; };
+		78FB79841F2CAC2E00D9C55F /* SignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUp.h; sourceTree = "<group>"; };
+		78FB79851F2CAC2E00D9C55F /* SignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUp.m; sourceTree = "<group>"; };
+		78FB79881F2CCC5D00D9C55F /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		78FB79891F2CCC5E00D9C55F /* username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = username.png; sourceTree = "<group>"; };
+		78FB798D1F2CE5AB00D9C55F /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		78FB798E1F2CE5AB00D9C55F /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		78FB798F1F2CE5AB00D9C55F /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		78FB79901F2CE5AB00D9C55F /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		78FB79911F2CE5AB00D9C55F /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		78FB79921F2CE5AB00D9C55F /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		78FB79931F2CE5AB00D9C55F /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		78FB79941F2CE5AB00D9C55F /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		78FB79951F2CE5AB00D9C55F /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		78FB79961F2CE5AB00D9C55F /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		78FB799D1F2CEC2000D9C55F /* CWStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWStatusBarNotification.h; sourceTree = "<group>"; };
+		78FB799E1F2CEC2000D9C55F /* CWStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWStatusBarNotification.m; sourceTree = "<group>"; };
+		78FB799F1F2CEC2000D9C55F /* notify_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notify_error.png; sourceTree = "<group>"; };
+		78FB79A01F2CEC2000D9C55F /* StatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusBarNotification.h; sourceTree = "<group>"; };
+		78FB79A11F2CEC2000D9C55F /* StatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusBarNotification.m; sourceTree = "<group>"; };
+		78FB79A51F2D063C00D9C55F /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		78FB79A61F2D063C00D9C55F /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		78FB79A81F2D067800D9C55F /* SendEther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendEther.h; sourceTree = "<group>"; };
+		78FB79A91F2D067800D9C55F /* SendEther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendEther.m; sourceTree = "<group>"; };
+		78FB79AB1F2D069200D9C55F /* ReceiveEther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveEther.h; sourceTree = "<group>"; };
+		78FB79AC1F2D069200D9C55F /* ReceiveEther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveEther.m; sourceTree = "<group>"; };
+		78FB79AE1F2D06A400D9C55F /* TradeEther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeEther.h; sourceTree = "<group>"; };
+		78FB79AF1F2D06A400D9C55F /* TradeEther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeEther.m; sourceTree = "<group>"; };
+		78FB79B11F2D2F4A00D9C55F /* qrcode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qrcode.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7831F3A71F2BDA1800A42C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7831F3A11F2BDA1500A42C0C = {
+			isa = PBXGroup;
+			children = (
+				7831F3AC1F2BDA2100A42C0C /* PayEther */,
+				7831F3AB1F2BDA2000A42C0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7831F3AB1F2BDA2000A42C0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7831F3AA1F2BDA2000A42C0C /* PayEther.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7831F3AC1F2BDA2100A42C0C /* PayEther */ = {
+			isa = PBXGroup;
+			children = (
+				7831F3C41F2BDBA600A42C0C /* ether.png */,
+				78FB79B11F2D2F4A00D9C55F /* qrcode.jpg */,
+				7831F3B01F2BDA2400A42C0C /* AppDelegate.h */,
+				7831F3B11F2BDA2400A42C0C /* AppDelegate.m */,
+				789935CE1F2BE05000B4E635 /* LoadUpdate.h */,
+				789935CF1F2BE05000B4E635 /* LoadUpdate.m */,
+				7831F3B61F2BDA2700A42C0C /* Main.storyboard */,
+				78FB79881F2CCC5D00D9C55F /* password.png */,
+				78FB79891F2CCC5E00D9C55F /* username.png */,
+				7831F3B91F2BDA2700A42C0C /* Assets.xcassets */,
+				78FB79821F2CAC2E00D9C55F /* LogIn.h */,
+				78FB79831F2CAC2E00D9C55F /* LogIn.m */,
+				78FB79841F2CAC2E00D9C55F /* SignUp.h */,
+				78FB79851F2CAC2E00D9C55F /* SignUp.m */,
+				7831F3BB1F2BDA2700A42C0C /* LaunchScreen.storyboard */,
+				7831F3BE1F2BDA2700A42C0C /* Info.plist */,
+				78FB797C1F2CA62F00D9C55F /* wall1.jpg */,
+				78FB797E1F2CAB6C00D9C55F /* wall.png */,
+				78FB79801F2CABC400D9C55F /* ether_logo.png */,
+				7831F3AD1F2BDA2400A42C0C /* Supporting Files */,
+				78FB79A51F2D063C00D9C55F /* Home.h */,
+				78FB79A61F2D063C00D9C55F /* Home.m */,
+				78FB79A81F2D067800D9C55F /* SendEther.h */,
+				78FB79A91F2D067800D9C55F /* SendEther.m */,
+				78FB79AB1F2D069200D9C55F /* ReceiveEther.h */,
+				78FB79AC1F2D069200D9C55F /* ReceiveEther.m */,
+				78FB79AE1F2D06A400D9C55F /* TradeEther.h */,
+				78FB79AF1F2D06A400D9C55F /* TradeEther.m */,
+			);
+			path = PayEther;
+			sourceTree = "<group>";
+		};
+		7831F3AD1F2BDA2400A42C0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78FB799C1F2CEC2000D9C55F /* CWStatusBarNotification */,
+				78FB798C1F2CE5AB00D9C55F /* SVProgressHUD */,
+				7831F3AE1F2BDA2400A42C0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78FB798C1F2CE5AB00D9C55F /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				78FB798D1F2CE5AB00D9C55F /* SVIndefiniteAnimatedView.h */,
+				78FB798E1F2CE5AB00D9C55F /* SVIndefiniteAnimatedView.m */,
+				78FB798F1F2CE5AB00D9C55F /* SVProgressAnimatedView.h */,
+				78FB79901F2CE5AB00D9C55F /* SVProgressAnimatedView.m */,
+				78FB79911F2CE5AB00D9C55F /* SVProgressHUD-Prefix.pch */,
+				78FB79921F2CE5AB00D9C55F /* SVProgressHUD.bundle */,
+				78FB79931F2CE5AB00D9C55F /* SVProgressHUD.h */,
+				78FB79941F2CE5AB00D9C55F /* SVProgressHUD.m */,
+				78FB79951F2CE5AB00D9C55F /* SVRadialGradientLayer.h */,
+				78FB79961F2CE5AB00D9C55F /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		78FB799C1F2CEC2000D9C55F /* CWStatusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				78FB799D1F2CEC2000D9C55F /* CWStatusBarNotification.h */,
+				78FB799E1F2CEC2000D9C55F /* CWStatusBarNotification.m */,
+				78FB799F1F2CEC2000D9C55F /* notify_error.png */,
+				78FB79A01F2CEC2000D9C55F /* StatusBarNotification.h */,
+				78FB79A11F2CEC2000D9C55F /* StatusBarNotification.m */,
+			);
+			path = CWStatusBarNotification;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7831F3A91F2BDA1800A42C0C /* PayEther */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7831F3C11F2BDA2800A42C0C /* Build configuration list for PBXNativeTarget "PayEther" */;
+			buildPhases = (
+				7831F3A61F2BDA1800A42C0C /* Sources */,
+				7831F3A71F2BDA1800A42C0C /* Frameworks */,
+				7831F3A81F2BDA1800A42C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayEther;
+			productName = PayEther;
+			productReference = 7831F3AA1F2BDA2000A42C0C /* PayEther.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7831F3A21F2BDA1600A42C0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Darwin Labs";
+				TargetAttributes = {
+					7831F3A91F2BDA1800A42C0C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7831F3A51F2BDA1700A42C0C /* Build configuration list for PBXProject "PayEther" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7831F3A11F2BDA1500A42C0C;
+			productRefGroup = 7831F3AB1F2BDA2000A42C0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7831F3A91F2BDA1800A42C0C /* PayEther */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7831F3A81F2BDA1800A42C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7831F3C51F2BDBA600A42C0C /* ether.png in Resources */,
+				7831F3BD1F2BDA2700A42C0C /* LaunchScreen.storyboard in Resources */,
+				78FB798A1F2CCC5E00D9C55F /* password.png in Resources */,
+				7831F3BA1F2BDA2700A42C0C /* Assets.xcassets in Resources */,
+				7831F3B81F2BDA2700A42C0C /* Main.storyboard in Resources */,
+				78FB79991F2CE5AB00D9C55F /* SVProgressHUD.bundle in Resources */,
+				78FB79A31F2CEC2000D9C55F /* notify_error.png in Resources */,
+				78FB79811F2CABC400D9C55F /* ether_logo.png in Resources */,
+				78FB798B1F2CCC5E00D9C55F /* username.png in Resources */,
+				78FB797D1F2CA62F00D9C55F /* wall1.jpg in Resources */,
+				78FB797F1F2CAB6C00D9C55F /* wall.png in Resources */,
+				78FB79B21F2D2F4B00D9C55F /* qrcode.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7831F3A61F2BDA1800A42C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FB79A21F2CEC2000D9C55F /* CWStatusBarNotification.m in Sources */,
+				78FB79861F2CAC2E00D9C55F /* LogIn.m in Sources */,
+				78FB79AA1F2D067800D9C55F /* SendEther.m in Sources */,
+				78FB79B01F2D06A400D9C55F /* TradeEther.m in Sources */,
+				78FB79A71F2D063D00D9C55F /* Home.m in Sources */,
+				7831F3B21F2BDA2400A42C0C /* AppDelegate.m in Sources */,
+				789935D01F2BE05000B4E635 /* LoadUpdate.m in Sources */,
+				7831F3AF1F2BDA2400A42C0C /* main.m in Sources */,
+				78FB799A1F2CE5AB00D9C55F /* SVProgressHUD.m in Sources */,
+				78FB79AD1F2D069200D9C55F /* ReceiveEther.m in Sources */,
+				78FB79971F2CE5AB00D9C55F /* SVIndefiniteAnimatedView.m in Sources */,
+				78FB79871F2CAC2E00D9C55F /* SignUp.m in Sources */,
+				78FB79981F2CE5AB00D9C55F /* SVProgressAnimatedView.m in Sources */,
+				78FB79A41F2CEC2000D9C55F /* StatusBarNotification.m in Sources */,
+				78FB799B1F2CE5AB00D9C55F /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7831F3B61F2BDA2700A42C0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7831F3B71F2BDA2700A42C0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7831F3BB1F2BDA2700A42C0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7831F3BC1F2BDA2700A42C0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7831F3BF1F2BDA2800A42C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7831F3C01F2BDA2800A42C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7831F3C21F2BDA2800A42C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PayEther/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonitekapps.PayEther;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7831F3C31F2BDA2800A42C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PayEther/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonitekapps.PayEther;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7831F3A51F2BDA1700A42C0C /* Build configuration list for PBXProject "PayEther" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7831F3BF1F2BDA2800A42C0C /* Debug */,
+				7831F3C01F2BDA2800A42C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7831F3C11F2BDA2800A42C0C /* Build configuration list for PBXNativeTarget "PayEther" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7831F3C21F2BDA2800A42C0C /* Debug */,
+				7831F3C31F2BDA2800A42C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7831F3A21F2BDA1600A42C0C /* Project object */;
+}
